@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+
+<body>
+    <header>
+        <img src="images/WebsiteLogo.PNG" alt="logo" width="250" height="150">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="fname" name="email"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <br>
+        <p>Location:</p>
+        <input type="checkbox" id="columbia" name="columbia" value="Columbia">
+        <label for="columbia"> Columbia</label><br>
+        <input type="checkbox" id="charleston" name="charleston" value="Charleston">
+        <label for="charleston"> Charleston</label><br>
+        <p>Order:</p>
+        
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Protein</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Toppings</th>
+                </tr>
+
+                <tr> 
+                    <td>Item 1:</td>
+                    <td>
+                    <select id="protein1">
+                    <option value="1">--Select Protein--</option> 
+                    <option value="Chicken">Chicken</option> 
+                    <option value="Steak">Steak</option> 
+                    <option value="Ground Beef">Ground Beef</option> 
+                    <option value="Pork">Pork</option> 
+                    <option value="Veggie, No protein">Veggie, No protein</option> 
+                    </select>
+                    </td> 
+                    <td>
+                        <select id="item1">
+                        <option value="1">--Select Item--</option> 
+                        <option value="Burrito">Burrito</option> 
+                        <option value="One Taco">One Taco</option> 
+                        <option value="Two Tacos">Two Tacos</option> 
+                        <option value="Three Tacos">Three Tacos</option> 
+                        <option value="Quesadilla">Quesadilla</option> 
+                        <option value="Nachos">Nachos</option> 
+                        <option value="Quesadilla">Quesadilla</option> 
+                        </select>
+                        </td>
+                    <td><input type="number" value="0" id="q1"></td>
+                    <td>
+                    <input type="checkbox" id="guacamole" name="guacamole" value="Guacamole">
+                    <label for="guacamole"> Guacamole $1.49</label>
+                    <input type="checkbox" id="queso" name="queso" value="Queso">
+                    <label for="queso"> Queso $1.49</label><br>
+                    <input type="checkbox" id="brownrice" name="brownrice" value="Brownrice">
+                    <label for="brownrice"> Brown Rice</label>
+                    <input type="checkbox" id="whiterice" name="whiterice" value="Whiterice">
+                    <label for="whiterice"> White Rice</label><br>
+                    <input type="checkbox" id="blackbeans" name="blackbeans" value="Blackbeans">
+                    <label for="blackbeans"> Black Beans</label>
+                    <input type="checkbox" id="pintobeans" name="pintobeans" value="Pintobeans">
+                    <label for="pintobeans"> Pinto Beans</label><br>
+                    <input type="checkbox" id="lettuce" name="lettuce" value="Lettuce">
+                    <label for="lettuce"> Lettuce</label>
+                    <input type="checkbox" id="cheese" name="cheese" value="Cheese">
+                    <label for="cheese"> Cheese</label><br>
+                    <input type="checkbox" id="sourcream" name="sourcream" value="Sourcream">
+                    <label for="sourcream"> Sour Cream</label>
+                    <input type="checkbox" id="jalepenos" name="jalepenos" value="Jalepenos">
+                    <label for="jalepenos"> Jalepenos</label><br>
+                    <input type="checkbox" id="peppersandonions" name="peppersandonions" value="Peppersandonions">
+                    <label for="peppersandonions"> Grilled Peppers and Onions</label>
+                    <input type="checkbox" id="salsa" name="salsa" value="Salsa">
+                    <label for="salsa"> Salsa</label><br>
+                    <br>
+                    <br>
+                        </td>
+                    </tr>
+                    
+
+                    <tr> 
+                        <td>Item 2:</td>
+                        <td>
+                        <select id="protein2">
+                        <option value="1">--Select Protein--</option> 
+                        <option value="Chicken">Chicken</option> 
+                        <option value="Steak">Steak</option> 
+                        <option value="Ground Beef">Ground Beef</option> 
+                        <option value="Pork">Pork</option> 
+                        <option value="Veggie, No protein">Veggie, No protein</option> 
+                        </select>
+                        </td> 
+                        <td>
+                            <select id="item2">
+                            <option value="1">--Select Item--</option> 
+                            <option value="Burrito">Burrito</option> 
+                            <option value="One Taco">One Taco</option> 
+                            <option value="Two Tacos">Two Tacos</option> 
+                            <option value="Three Tacos">Three Tacos</option> 
+                            <option value="Quesadilla">Quesadilla</option> 
+                            <option value="Nachos">Nachos</option> 
+                            <option value="Quesadilla">Quesadilla</option> 
+                            </select>
+                            </td>
+                        <td><input type="number" value="0" id="q2"></td>
+                        <td>
+                        <input type="checkbox" id="guacamole" name="guacamole" value="Guacamole">
+                        <label for="guacamole"> Guacamole $1.49</label>
+                        <input type="checkbox" id="queso" name="queso" value="Queso">
+                        <label for="queso"> Queso $1.49</label><br>
+                        <input type="checkbox" id="brownrice" name="brownrice" value="Brownrice">
+                        <label for="brownrice"> Brown Rice</label>
+                        <input type="checkbox" id="whiterice" name="whiterice" value="Whiterice">
+                        <label for="whiterice"> White Rice</label><br>
+                        <input type="checkbox" id="blackbeans" name="blackbeans" value="Blackbeans">
+                        <label for="blackbeans"> Black Beans</label>
+                        <input type="checkbox" id="pintobeans" name="pintobeans" value="Pintobeans">
+                        <label for="pintobeans"> Pinto Beans</label><br>
+                        <input type="checkbox" id="lettuce" name="lettuce" value="Lettuce">
+                        <label for="lettuce"> Lettuce</label>
+                        <input type="checkbox" id="cheese" name="cheese" value="Cheese">
+                        <label for="cheese"> Cheese</label><br>
+                        <input type="checkbox" id="sourcream" name="sourcream" value="Sourcream">
+                        <label for="sourcream"> Sour Cream</label>
+                        <input type="checkbox" id="jalepenos" name="jalepenos" value="Jalepenos">
+                        <label for="jalepenos"> Jalepenos</label><br>
+                        <input type="checkbox" id="peppersandonions" name="peppersandonions" value="Peppersandonions">
+                        <label for="peppersandonions"> Grilled Peppers and Onions</label>
+                        <input type="checkbox" id="salsa" name="salsa" value="Salsa">
+                        <label for="salsa"> Salsa</label><br>
+                        <br>
+                        <br>
+                            </td>
+                        </tr>
+
+                        <tr> 
+                            <td>Item 3:</td>
+                            <td>
+                            <select id="protein3">
+                            <option value="1">--Select Protein--</option> 
+                            <option value="Chicken">Chicken</option> 
+                            <option value="Steak">Steak</option> 
+                            <option value="Ground Beef">Ground Beef</option> 
+                            <option value="Pork">Pork</option> 
+                            <option value="Veggie, No protein">Veggie, No protein</option> 
+                            </select>
+                            </td> 
+                            <td>
+                                <select id="item3">
+                                <option value="1">--Select Item--</option> 
+                                <option value="Burrito">Burrito</option> 
+                                <option value="One Taco">One Taco</option> 
+                                <option value="Two Tacos">Two Tacos</option> 
+                                <option value="Three Tacos">Three Tacos</option> 
+                                <option value="Quesadilla">Quesadilla</option> 
+                                <option value="Nachos">Nachos</option> 
+                                <option value="Quesadilla">Quesadilla</option> 
+                                </select>
+                                </td>
+                            <td><input type="number" value="0" id="q3"></td>
+                            <td>
+                            <input type="checkbox" id="guacamole" name="guacamole" value="Guacamole">
+                            <label for="guacamole"> Guacamole $1.49</label>
+                            <input type="checkbox" id="queso" name="queso" value="Queso">
+                            <label for="queso"> Queso $1.49</label><br>
+                            <input type="checkbox" id="brownrice" name="brownrice" value="Brownrice">
+                            <label for="brownrice"> Brown Rice</label>
+                            <input type="checkbox" id="whiterice" name="whiterice" value="Whiterice">
+                            <label for="whiterice"> White Rice</label><br>
+                            <input type="checkbox" id="blackbeans" name="blackbeans" value="Blackbeans">
+                            <label for="blackbeans"> Black Beans</label>
+                            <input type="checkbox" id="pintobeans" name="pintobeans" value="Pintobeans">
+                            <label for="pintobeans"> Pinto Beans</label><br>
+                            <input type="checkbox" id="lettuce" name="lettuce" value="Lettuce">
+                            <label for="lettuce"> Lettuce</label>
+                            <input type="checkbox" id="cheese" name="cheese" value="Cheese">
+                            <label for="cheese"> Cheese</label><br>
+                            <input type="checkbox" id="sourcream" name="sourcream" value="Sourcream">
+                            <label for="sourcream"> Sour Cream</label>
+                            <input type="checkbox" id="jalepenos" name="jalepenos" value="Jalepenos">
+                            <label for="jalepenos"> Jalepenos</label><br>
+                            <input type="checkbox" id="peppersandonions" name="peppersandonions" value="Peppersandonions">
+                            <label for="peppersandonions"> Grilled Peppers and Onions</label>
+                            <input type="checkbox" id="salsa" name="salsa" value="Salsa">
+                            <label for="salsa"> Salsa</label><br>
+                            <br>
+                            <br>
+                                </td>
+                            </tr>
+
+                            <tr> 
+                                <td>Item 4:</td>
+                                <td>
+                                <select id="protein4">
+                                <option value="1">--Select Protein--</option> 
+                                <option value="Chicken">Chicken</option> 
+                                <option value="Steak">Steak</option> 
+                                <option value="Ground Beef">Ground Beef</option> 
+                                <option value="Pork">Pork</option> 
+                                <option value="Veggie, No protein">Veggie, No protein</option> 
+                                </select>
+                                </td> 
+                                <td>
+                                    <select id="item4">
+                                    <option value="1">--Select Item--</option> 
+                                    <option value="Burrito">Burrito</option> 
+                                    <option value="One Taco">One Taco</option> 
+                                    <option value="Two Tacos">Two Tacos</option> 
+                                    <option value="Three Tacos">Three Tacos</option> 
+                                    <option value="Quesadilla">Quesadilla</option> 
+                                    <option value="Nachos">Nachos</option> 
+                                    <option value="Quesadilla">Quesadilla</option> 
+                                    </select>
+                                    </td>
+                                <td><input type="number" value="0" id="q4"></td>
+                                <td>
+                                <input type="checkbox" id="guacamole" name="guacamole" value="Guacamole">
+                                <label for="guacamole"> Guacamole $1.49</label>
+                                <input type="checkbox" id="queso" name="queso" value="Queso">
+                                <label for="queso"> Queso $1.49</label><br>
+                                <input type="checkbox" id="brownrice" name="brownrice" value="Brownrice">
+                                <label for="brownrice"> Brown Rice</label>
+                                <input type="checkbox" id="whiterice" name="whiterice" value="Whiterice">
+                                <label for="whiterice"> White Rice</label><br>
+                                <input type="checkbox" id="blackbeans" name="blackbeans" value="Blackbeans">
+                                <label for="blackbeans"> Black Beans</label>
+                                <input type="checkbox" id="pintobeans" name="pintobeans" value="Pintobeans">
+                                <label for="pintobeans"> Pinto Beans</label><br>
+                                <input type="checkbox" id="lettuce" name="lettuce" value="Lettuce">
+                                <label for="lettuce"> Lettuce</label>
+                                <input type="checkbox" id="cheese" name="cheese" value="Cheese">
+                                <label for="cheese"> Cheese</label><br>
+                                <input type="checkbox" id="sourcream" name="sourcream" value="Sourcream">
+                                <label for="sourcream"> Sour Cream</label>
+                                <input type="checkbox" id="jalepenos" name="jalepenos" value="Jalepenos">
+                                <label for="jalepenos"> Jalepenos</label><br>
+                                <input type="checkbox" id="peppersandonions" name="peppersandonions" value="Peppersandonions">
+                                <label for="peppersandonions"> Grilled Peppers and Onions</label>
+                                <input type="checkbox" id="salsa" name="salsa" value="Salsa">
+                                <label for="salsa"> Salsa</label><br>
+                                <br>
+                                <br>
+                                    </td>
+                                </tr>
+
+
+
+
+            </table>
+            <input type="submit" value="Submit">
+    </form>
+    <section>
+        <h1>MENU</h1>
+        <img src="images/BurritoImage.jpg" alt="tacos" width="300" height="200">
+        <p>
+           Burritos:<br>
+           Chicken: $9.49<br>
+           Steak: $11.99 <br>
+           Ground Beef: $9.49 <br>
+           Pork: $9.49 <br>
+           Veggie: $8.49 <br>
+           <br>
+           Tacos: <br>
+           One Taco: $3.50 <br>
+           Two Tacos: $7.00 <br>
+           Three Tacos: $10.50 <br>
+           <br>
+           Quesadillas: <br>
+           Chicken: $9.99 <br>
+           Steak: $12.49 <br>
+           Ground Beef: $9.99 <br>
+           Pork: $9.99 <br>
+           Veggie: $8.99 <br>
+           <br>
+           Nachos: <br>
+           Chicken: $9.99 <br>
+           Steak: $12.49 <br>
+           Ground Beef: $9.99 <br>
+           Pork: $9.99 <br>
+           Veggie: $8.99 <br>
+           <br>
+           Extra Ad-Ons: Guacamole $ 1.49 & Queso $1.49<br>
+           <br>
+           Free Ad-Ons: Brown Rice, White Rice, Black Beans, Pinto Beans, Lettuce, Cheese, Sour Cream, Jalepenos, Grilled Bell Peppers and Onions<br>
+           Every Meal is included with Chips and Salsa
+        </p>
+        <img src="images/QuesadillaImage.jpg" alt="tacos" width="250" height="200">
+    </section>
+
+
+</body>
